@@ -25,10 +25,17 @@ Several others have created other sorters based on other concepts and series, se
  * Does not work with CloudFlare's Rocket Loader.
  * Breaks on older versions of IE and mobile Safari, due to various incompatibilities.
 
-## How can I improve this project?
+## How can I improve this sorter?
  * Improve the styling/responsiveness of the page.
  * Fix incorrect or missing idol data.
  * Fix incorrect or poor-looking images.
 
 ## Contacts
-For any issue or doubt you can contact me on here or on discord (clay#6931)
+<details>
+<summary></summary>
+ 
+  ```
+  clay#6931
+  ```
+  
+</details>
