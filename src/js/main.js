@@ -602,7 +602,7 @@ function generateImage() {
   const filename = 'sort-' + (new Date(timeFinished - tzoffset)).toISOString().slice(0, -5).replace('T', '(') + ').png';
 
   html2canvas(document.querySelector('.results'), options = {}).then(canvas => {
-    const dataURL = canvas.toDataURL("image/jpeg", 0.9);
+    const dataURL = canvas.toDataURL("image/jpeg", 1);
     const imgButton = document.querySelector('.finished.getimg.button');
     const resetButton = document.createElement('a');
 
